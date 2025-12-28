@@ -1,0 +1,6 @@
+from turtle import*
+turtle=Turtle()
+x=int(input("enter the number of parts"))
+for i in range(x):
+    turtle.backward(50)
+    turtle.left(360/x)
