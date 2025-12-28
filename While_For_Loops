@@ -1,8 +1,8 @@
 #This code is used to print text using WHILE and FOR loop
-x=1
+x=0
 print("This is using While loop")
 while x<7:
-    print(x, ": Coding is fun")   
+    print(x+1, ": Coding is fun")   
     x+=1
 
 print("This is using For loop")
