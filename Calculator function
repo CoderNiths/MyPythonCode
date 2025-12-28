@@ -1,0 +1,13 @@
+x=int(input("enter a number"))
+y=int(input("enter another number"))
+z=input("enter a opearater")
+if z=="*" :
+    print(x*y)
+elif z=="/" :
+    print(x/y)
+elif z=="+" :
+    print(x+y)  
+elif z=="-" :
+    print(x-y)
+else:
+    print("sorry we don't have this operator")
