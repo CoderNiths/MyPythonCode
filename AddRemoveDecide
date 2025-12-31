@@ -1,0 +1,12 @@
+nums=[17,7,34,63,54,53,563,57,574]
+x=int(input("enter a random number: "))
+nums.append(x)
+print(nums)
+y=int(input("What num do u want to remove the list?: "))
+nums.remove(y)
+print(nums)
+for i in nums:
+    if i%2==0:
+        print(i,"even")
+    else:
+        print(i,"odd")
