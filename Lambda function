@@ -1,0 +1,13 @@
+def exp(x,y):
+    print(x**y)
+exp(5,7)
+    
+exp=lambda x,y:x**y
+print(exp(10,5))
+
+
+hi=lambda name:"hello"+name
+
+def hi(name):
+    print("hello "+name)
+hi("Nithya")
