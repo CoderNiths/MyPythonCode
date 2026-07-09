@@ -1,0 +1,8 @@
+x=int(input("Enter a number: "))
+a=x
+b=""
+for i in range(len(str(x))): #repeats the loop the number of digit times
+    y=a % 10 #assigns the last digit
+    a=a / 10 #removes the last digit
+    b=b+str(int(y)) #it concatenates b to the str
+print(b)
